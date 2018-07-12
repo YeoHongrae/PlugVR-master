@@ -20,6 +20,6 @@
        android:layout_width="match_parent"
        android:layout_height="match_parent"/>
 
-    <!--http://rinear.tistory.com/entry/android-%EB%82%98%EB%A7%8C%EC%9D%98-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%902-%ED%99%94%EB%A9%B4 -->
+    <!-- http://rinear.tistory.com/entry/android-%EB%82%98%EB%A7%8C%EC%9D%98-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%902-%ED%99%94%EB%A9%B4 -->
 
 </LinearLayout>

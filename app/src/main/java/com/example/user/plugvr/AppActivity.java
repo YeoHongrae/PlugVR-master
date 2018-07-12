@@ -16,7 +16,7 @@ public class AppActivity extends AppCompatActivity {
 
         //툴바
         Toolbar toolbar = findViewById(R.id.toolbar1);
-        toolbar.setTitle("ㅇㅇㅇ");
+        toolbar.setTitle("Application Name"); //앱이름 출력
         toolbar.setTitleTextColor(Color.WHITE);
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();

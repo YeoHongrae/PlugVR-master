@@ -11,9 +11,10 @@
         android:theme="@style/AppTheme.NoActionBar"/>
 
     <HorizontalScrollView
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:scrollbars="none"
-        android:layout_height="350dp">
+        android:layout_height="200dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -22,14 +23,14 @@
             >
 
             <ImageView
-                android:layout_width="400dp"
+                android:layout_width="350dp"
                 android:layout_height="340dp"
                 android:background="@color/plugVRSilver"
                 android:padding="10dp"
                 />
 
             <ImageView
-                android:layout_width="400dp"
+                android:layout_width="350dp"
                 android:layout_height="340dp"
                 android:background="@color/plugVRSilver"
                 android:padding="10dp"
@@ -37,7 +38,39 @@
 
         </LinearLayout>
 
-
     </HorizontalScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:text="License Registration"
+        android:id="@+id/btnLicenseRegist"
+        android:visibility="visible"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/layoutButtonOpen"
+        android:padding="5dp"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:text=""
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            />
+
+    </LinearLayout>
+
 
 </LinearLayout>
