@@ -62,7 +62,6 @@ public class MainAdapter extends BaseAdapter {
         });
 
         return convertView;
-        //rrrrr
     }
 
 

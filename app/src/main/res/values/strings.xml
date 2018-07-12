@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PlugVR</string>
+    <string name="sign_in">Sign in with Google</string>
+    <string name="user_name">User Name</string>
+    <string name="user_mail">userId@gmail.com</string>
+    <string name="setPW">암호설정</string>
+    <string name="setAlert">알림설정</string>
+    <string name="setAutoUpdate">자동 업데이트 설정</string>
+    <string name="call">고객센터</string>
+    <string name="logout">로그아웃</string>
+    <string name="info">어플리케이션 정보</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
