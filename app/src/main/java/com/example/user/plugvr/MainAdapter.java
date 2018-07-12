@@ -25,7 +25,7 @@ public class MainAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return MainItemList.size();
     }
 
     @Override

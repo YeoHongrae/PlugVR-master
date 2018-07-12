@@ -2,23 +2,22 @@
 <!-- 앱의 틀이 되는 뷰페이저와 탭인디케이터 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:custom="http://schemas.android.com/apk/res-auto"
-    tools:context=".MainActivity"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_height="match_parent">
+    tools:context=".MainActivity">
 
-   <com.astuetz.PagerSlidingTabStrip
-      android:layout_height="70dp"
-       custom:pstsShouldExpand="true"
-       android:layout_width="match_parent"
-       android:id="@+id/tabs" />
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
 
-   <android.support.v4.view.ViewPager
-       android:id="@+id/viewPager"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <!-- http://rinear.tistory.com/entry/android-%EB%82%98%EB%A7%8C%EC%9D%98-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%902-%ED%99%94%EB%A9%B4 -->
 
