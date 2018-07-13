@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "249558551279",
+    "firebase_url": "https://plugvr-app.firebaseio.com",
+    "project_id": "plugvr-app",
+    "storage_bucket": "plugvr-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249558551279:android:7becf8647e56b2c1",
+        "android_client_info": {
+          "package_name": "com.plugvr.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249558551279-g6dt29281n2p429f9jd47nudjd2f44pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plugvr.app",
+            "certificate_hash": "0f7ca52f8f4e5271fdfba71a3221e960bd9767e1"
+          }
+        },
+        {
+          "client_id": "249558551279-h1upd08l75u66qf4i02flf4tpl4g7ej0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADk9Xt2neSxUPmq5JoPVcuqr4pzRjaxy8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249558551279-h1upd08l75u66qf4i02flf4tpl4g7ej0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
