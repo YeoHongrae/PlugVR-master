@@ -1,4 +1,4 @@
-package com.example.user.plugvr;
+package com.plugvr.app.plugvr;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

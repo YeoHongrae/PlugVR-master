@@ -1,10 +1,12 @@
-package com.example.user.plugvr;
+package com.plugvr.app;
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+
+import com.plugvr.app.plugvr.R;
 
 public class AppActivity extends AppCompatActivity {
 

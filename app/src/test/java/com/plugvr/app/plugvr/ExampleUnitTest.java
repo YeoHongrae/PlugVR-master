@@ -1,4 +1,4 @@
-package com.example.user.plugvr;
+package com.plugvr.app.plugvr;
 
 import org.junit.Test;
 

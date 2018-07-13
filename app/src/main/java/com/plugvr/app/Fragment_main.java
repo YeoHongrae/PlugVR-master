@@ -1,21 +1,14 @@
-package com.example.user.plugvr;
+package com.plugvr.app;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.constraint.ConstraintLayout;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.plugvr.app.plugvr.R;
 
 
 public class Fragment_main extends android.support.v4.app.Fragment {

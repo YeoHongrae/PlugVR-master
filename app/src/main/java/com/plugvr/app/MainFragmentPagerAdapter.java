@@ -1,13 +1,11 @@
-package com.example.user.plugvr;
+package com.plugvr.app;
 
-import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.astuetz.PagerSlidingTabStrip;
+import com.plugvr.app.plugvr.R;
 
 /**
  * Created by user on 2018-07-11.

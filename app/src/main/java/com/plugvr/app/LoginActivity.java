@@ -1,7 +1,9 @@
-package com.example.user.plugvr;
+package com.plugvr.app;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.plugvr.app.plugvr.R;
 
 public class LoginActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.user.plugvr;
+package com.plugvr.app;
 
 import android.graphics.drawable.Drawable;
 
