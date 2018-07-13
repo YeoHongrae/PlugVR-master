@@ -1,5 +1,7 @@
 package com.plugvr.app;
 
+import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
@@ -12,6 +14,9 @@ import android.widget.ListView;
 import com.plugvr.app.plugvr.R;
 
 public class Fragment_settings extends Fragment {
+
+    Drawable[] iconList;
+    Context context;
 
     public Fragment_settings()
     {
@@ -34,14 +39,22 @@ public class Fragment_settings extends Fragment {
         SettingAdapter adapter = new SettingAdapter();
         lvSetting.setAdapter(adapter);
 
-        int[] iconList = {R.drawable.ic_lock_black_24dp, R.drawable.ic_add_alert_black_24dp};
 
+        String[] settingList = getResources().getStringArray(R.array.setting);
+        iconList = new Drawable[settingList.length];
 
+        for (int i=0; i<settingList.length; i++) {
+            StringBuilder iconFileName = new StringBuilder("settingicon");
+            iconFileName.append(i + 1);
+            Integer iconNum = getResources().getIdentifier(iconFileName.toString(), "drawable", getActivity().getPackageName());
+            iconList[i] = getResources().getDrawable(iconNum);
+        }
 
+        for (int i=0; i<settingList.length; i++){
 
+            adapter.addItem(iconList[i], settingList[i]);
 
-        adapter.addItem(getResources().getDrawable(R.drawable.ic_lock_black_24dp), "aa");
-        adapter.addItem(getResources().getDrawable(R.drawable.ic_add_alert_black_24dp), "aa");
+        }
 
         return layout;
 

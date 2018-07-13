@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="setting">
+        <item>암호설정</item>
+        <item>알림설정</item>
+        <item>자동 업데이트 설정</item>
+        <item>고객센터</item>
+        <item>로그아웃</item>
+        <item>어플리케이션 정보</item>
+    </string-array>
+
+
+</resources>
