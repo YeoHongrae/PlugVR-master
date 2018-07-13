@@ -66,135 +66,17 @@
                 />
 
         </RelativeLayout>
+
+
     </LinearLayout>
 
+    <ListView
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_lock_black_24dp"
-        android:id="@+id/iconLock"
-        android:padding="10dp"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:divider="#00000000"
+        android:id="@+id/lvSetting"
         app:layout_constraintTop_toBottomOf="@id/glTopHorizontal"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/setPW"
-        android:id="@+id/tvPW"
-        android:padding="10dp"
-        app:layout_constraintLeft_toRightOf="@id/iconLock"
-        app:layout_constraintTop_toBottomOf="@id/glTopHorizontal"
-        />
-
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_alert_black_24dp"
-        android:id="@+id/iconBell"
-        android:padding="10dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iconLock"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/setAlert"
-        android:id="@+id/tvAlert"
-        android:textSize="14sp"
-        android:padding="10dp"
-        app:layout_constraintLeft_toRightOf="@id/iconLock"
-        app:layout_constraintTop_toBottomOf="@id/tvPW"
-        />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_system_update_black_24dp"
-        android:id="@+id/iconUpdate"
-        android:padding="10dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iconBell"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/setAutoUpdate"
-        android:id="@+id/tvAutoUpdate"
-        android:textSize="14sp"
-        android:padding="10dp"
-        app:layout_constraintLeft_toRightOf="@id/iconBell"
-        app:layout_constraintTop_toBottomOf="@id/tvAlert"
-        />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_call_black_24dp"
-        android:id="@+id/iconCall"
-        android:padding="10dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/glTopHorizontal2"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/call"
-        android:id="@+id/tvCall"
-        android:textSize="14sp"
-        android:padding="10dp"
-        app:layout_constraintLeft_toRightOf="@id/iconCall"
-        app:layout_constraintTop_toBottomOf="@id/glTopHorizontal2"
-        />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_keyboard_backspace_black_24dp"
-        android:id="@+id/iconLogout"
-        android:padding="10dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iconCall"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/logout"
-        android:id="@+id/tvLogout"
-        android:textSize="14sp"
-        android:padding="10dp"
-        app:layout_constraintLeft_toRightOf="@id/iconCall"
-        app:layout_constraintTop_toBottomOf="@id/tvCall"
-        />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_info_black_24dp"
-        android:id="@+id/iconInfo"
-        android:padding="10dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iconLogout"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/info"
-        android:id="@+id/tvInfo"
-        android:textSize="14sp"
-        android:padding="10dp"
-        app:layout_constraintLeft_toRightOf="@id/iconLogout"
-        app:layout_constraintTop_toBottomOf="@id/tvLogout"
-        />
-
+        android:layout_height="wrap_content" />
 
 
 </android.support.constraint.ConstraintLayout>
