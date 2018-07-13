@@ -51,9 +51,7 @@ public class Fragment_settings extends Fragment {
         }
 
         for (int i=0; i<settingList.length; i++){
-
             adapter.addItem(iconList[i], settingList[i]);
-
         }
 
         return layout;
